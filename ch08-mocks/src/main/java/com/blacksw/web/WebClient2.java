@@ -14,6 +14,7 @@ public class WebClient2 {
             }
             workingContent = content.toString();
         } catch (Exception e) {
+            System.out.println("exception..! : " + e.toString());
             workingContent = null;
         }
 
